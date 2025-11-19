@@ -1,4 +1,5 @@
 import React from 'react';
+import LiveMap from './LiveMap';
 
 const Dashboard = () => {
   return (
@@ -99,12 +100,8 @@ const Dashboard = () => {
         {/* Live Maps */}
         <div className="bg-white rounded-lg shadow-md p-6">
           <h3 className="text-lg font-semibold text-gray-800 mb-4">Live Maps</h3>
-          <div className="bg-gray-200 rounded-lg h-48 flex items-center justify-center text-gray-500">
-            <div className="text-center">
-              <p className="mb-2">📍 Map View</p>
-              <p className="text-sm">Cibiru Wetan, Cileunyi</p>
-              <p className="text-sm">Bandung Regency</p>
-            </div>
+          <div className="h-64 rounded-lg overflow-hidden">
+            <LiveMap center={[-6.9175, 107.6191]} zoom={13} />
           </div>
         </div>
       </div>

@@ -155,7 +155,7 @@ const Profile = ({ isLoggedIn, user, onLogin, onRegister }) => {
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">Unit</label>
                 <div className="flex gap-2">
-                  <button className="px-4 py-2 bg-gray-200 rounded-lg hover:bg-gray-300">Kinersius</button>
+                  <button className="px-4 py-2 bg-gray-200 rounded-lg hover:bg-gray-300">WhatsApp</button>
                   <button className="px-4 py-2 bg-gray-200 rounded-lg hover:bg-gray-300">Email</button>
                 </div>
               </div>
