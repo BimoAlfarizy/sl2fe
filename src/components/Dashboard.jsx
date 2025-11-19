@@ -6,7 +6,7 @@ const Dashboard = () => {
     <div>
       <div className="mb-6">
         <h2 className="text-3xl font-bold text-gray-800">Dashboard</h2>
-        <p className="text-gray-500">Information about your current plan and usages</p>
+        <p className="text-gray-500">Dashboard</p>
       </div>
 
       {/* Air Quality Chart */}
