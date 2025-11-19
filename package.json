@@ -1,8 +1,9 @@
 {
-  "name": "sl2",
+  "name": "air-quality-dashboard",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Air Quality Monitoring Dashboard for BojongSantoz",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,7 +12,8 @@
   },
   "dependencies": {
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "lucide-react": "^0.263.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
